@@ -267,7 +267,7 @@ This is equivalent to separately writing the two triples:
 <https://aeshin.org> foaf:givenName "ライアン" .
 ```
 
-Finally--what if you want to refer to things for which you can't find
+Finally—what if you want to refer to things for which you can't find
 suitable URIs? For example, I have my own domain name (`aeshin.org`),
 so it is easy for me to use that to refer to myself. But what if I
 didn't? Well, in that case I could use a *relative URI*. A relative
