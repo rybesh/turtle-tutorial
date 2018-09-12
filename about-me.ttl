@@ -1,0 +1,17 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#me>
+  a foaf:Person ;
+  foaf:givenName "Ryan" , "ライアン" ;
+  foaf:familyName "Shaw" ;
+  foaf:holdsAccount <https://twitter.com/rybesh> ;
+  foaf:workplaceHomepage <https://sils.unc.edu>
+  .
+<https://twitter.com/rybesh>
+  a foaf:OnlineAccount ;
+  foaf:accountName "rybesh" ;
+  foaf:accountServiceHomepage <https://twitter.com>
+  .
+
+<https://sils.unc.edu> a foaf:Document .
+<https://twitter.com> a foaf:Document .
